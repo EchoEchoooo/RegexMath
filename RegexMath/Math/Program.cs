@@ -8,8 +8,9 @@ namespace Math
         {
             while (true)
             {
-                Console.WriteLine("==== Regex Math (By: Logic Gates ====)");
-                Console.WriteLine("--------------------------------------");
+                Console.WriteLine("======================================)");
+                Console.WriteLine("     Regex Math (By: Logic Gates)");
+                Console.WriteLine("======================================)");
                 string input = Console.ReadLine();
                 bool success = RegexMath.RegexMath.TryEvaluate(input, out double result);
                 Console.WriteLine(success);
@@ -28,10 +29,12 @@ namespace Math
 
             Console.WriteLine("Regex Math (By: Logic Gates");
             Console.WriteLine("Members: ");
-            Console.WriteLine("Geryko Manarang");
-            Console.WriteLine("Jasmine  Camasura");
-            Console.WriteLine("Kendric Ordonez");
-            Console.WriteLine("Victoria Babasa");
+            Console.WriteLine("Geryko Luis Manarang");
+            Console.WriteLine("Victoria Faye Babasa");
+            Console.WriteLine("Jasmine Camasura");
+            Console.WriteLine("Vincent Karl Murayama");
+            Console.WriteLine("Kendric Ordoñez");
+            
         }
     }
 }
