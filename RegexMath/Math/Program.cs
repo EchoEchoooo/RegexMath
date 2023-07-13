@@ -17,7 +17,7 @@ namespace Math
                 if (success)
                     Console.WriteLine($"{input} = {result}");
                 
-                Console.WriteLine(" < Press any key to continue > ");
+                Console.WriteLine(" < Press any key to continue | Ctrl+X to exit > ");
                 ConsoleKeyInfo keyInfo = Console.ReadKey();
 
                 if (keyInfo.Modifiers == ConsoleModifiers.Control && keyInfo.Key == ConsoleKey.X)
