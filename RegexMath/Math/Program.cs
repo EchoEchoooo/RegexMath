@@ -8,9 +8,9 @@ namespace Math
         {
             while (true)
             {
-                Console.WriteLine("======================================)");
+                Console.WriteLine("======================================");
                 Console.WriteLine("     Regex Math (By: Logic Gates)");
-                Console.WriteLine("======================================)");
+                Console.WriteLine("======================================");
                 string input = Console.ReadLine();
                 bool success = RegexMath.RegexMath.TryEvaluate(input, out double result);
                 Console.WriteLine(success);
