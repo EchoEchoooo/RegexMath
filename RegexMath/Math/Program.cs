@@ -8,6 +8,7 @@ namespace Math
         {
             while (true)
             {
+                Console.WriteLine("Run run run kitty kitty run run bibidum bibidum bidibidubumbubm mygod");
                 string input = Console.ReadLine();
                 bool success = RegexMath.RegexMath.TryEvaluate(input, out double result);
                 Console.WriteLine(success);
