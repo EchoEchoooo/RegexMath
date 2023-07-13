@@ -27,7 +27,7 @@ namespace Math
                 Console.Clear();
             }
 
-            Console.WriteLine("Regex Math (By: Logic Gates");
+            Console.WriteLine("--\n Regex Math (By: Logic Gates");
             Console.WriteLine("Members: ");
             Console.WriteLine("Geryko Luis Manarang");
             Console.WriteLine("Victoria Faye Babasa");
