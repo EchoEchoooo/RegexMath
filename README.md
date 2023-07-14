@@ -19,6 +19,10 @@ var input = "broken";
 RegexMath.TryEvaluate(input, our var result);
 // False
 ```
+## Screenshots
+![image](https://github.com/EchoEchoooo/RegexMath/assets/91067593/f62d675d-9fc1-43fb-a3a1-fbb43131bec6)
+![image](https://github.com/EchoEchoooo/RegexMath/assets/91067593/3ff7f40d-ff62-422a-9f56-8d03fd5d588d)
+
 
 ## Features
 
