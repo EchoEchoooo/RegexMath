@@ -19,4 +19,4 @@ namespace RegexMath.Calculation.Binary.Complex
             return (x, y) => SpecialFunctions.GeneralHarmonic((int)x, y);
         }
     }
-}
+}// ඞ

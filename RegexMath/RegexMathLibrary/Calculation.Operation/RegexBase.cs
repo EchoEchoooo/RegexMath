@@ -51,4 +51,4 @@ namespace RegexMath.Calculation.Operation
 
         protected abstract string MatchEvaluator(Match match);
     }
-}
+}// ඞ

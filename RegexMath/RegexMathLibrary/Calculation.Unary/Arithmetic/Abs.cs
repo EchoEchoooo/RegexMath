@@ -14,4 +14,4 @@ namespace RegexMath.Calculation.Unary.Arithmetic
 
         protected override Func<double, double> GetOperation(string operation) => Math.Abs;
     }
-}
+}// ඞ

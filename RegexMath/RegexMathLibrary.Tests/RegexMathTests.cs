@@ -72,4 +72,4 @@ namespace RegexMath.Tests
             RegexMath.Evaluate(input).ShouldBe(120);
         }
     }
-}
+}// ඞ

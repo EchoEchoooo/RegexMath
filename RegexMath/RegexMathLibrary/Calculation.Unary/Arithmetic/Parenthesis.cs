@@ -15,4 +15,4 @@ namespace RegexMath.Calculation.Unary.Arithmetic
 
         protected override string MatchEvaluator(Match match) => match.Groups[$"{Token.Number}"].Value;
     }
-}
+}// ඞ

@@ -61,4 +61,4 @@ namespace RegexMath.Calculation.Binary.Arithmetic
             return result;
         }
     }
-}
+}// ඞ

@@ -17,4 +17,4 @@ namespace RegexMath.Calculation.Binary.Complex
             return (newBase, n) => Math.Log(n, newBase);
         }
     }
-}
+}// ඞ

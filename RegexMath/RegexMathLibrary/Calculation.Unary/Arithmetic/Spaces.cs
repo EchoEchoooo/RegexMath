@@ -12,4 +12,4 @@ namespace RegexMath.Calculation.Unary.Arithmetic
 
         protected override string MatchEvaluator(Match match) => string.Empty;
     }
-}
+}// ඞ

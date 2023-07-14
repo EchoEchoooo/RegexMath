@@ -14,4 +14,4 @@ namespace RegexMath.Calculation.Binary.Complex
 
         protected override Func<double, double, double> GetOperation(string operation) => SpecialFunctions.Hypotenuse;
     }
-}
+}// ඞ

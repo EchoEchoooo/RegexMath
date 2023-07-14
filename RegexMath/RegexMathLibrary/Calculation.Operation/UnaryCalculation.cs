@@ -25,4 +25,4 @@ namespace RegexMath.Calculation.Operation
             return _brackets ? $"({number})" : number;
         }
     }
-}
+}// ඞ

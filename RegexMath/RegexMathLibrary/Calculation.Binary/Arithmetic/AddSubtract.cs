@@ -1,6 +1,6 @@
 ﻿using System;
 using RegexMath.Calculation.Operation;
-// ඞ
+
 namespace RegexMath.Calculation.Binary.Arithmetic
 {
     public sealed class AddSubtract : BinaryCalculation
@@ -31,3 +31,4 @@ namespace RegexMath.Calculation.Binary.Arithmetic
         private static double Add(double x, double y) => x + y;
     }
 }
+// ඞ

@@ -36,4 +36,4 @@ namespace RegexMath.Calculation.Unary.Arithmetic
             };
         }
     }
-}
+}// ඞ

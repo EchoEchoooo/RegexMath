@@ -17,4 +17,4 @@ namespace RegexMath.Calculation.Binary.Complex
             return (x, y) => SpecialFunctions.ExponentialIntegral(x, (int)y);
         }
     }
-}
+}// ඞ

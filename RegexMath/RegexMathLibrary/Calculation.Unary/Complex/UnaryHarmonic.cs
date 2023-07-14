@@ -18,4 +18,4 @@ namespace RegexMath.Calculation.Unary.Complex
             return x => SpecialFunctions.Harmonic((int)x);
         }
     }
-}
+}// ඞ

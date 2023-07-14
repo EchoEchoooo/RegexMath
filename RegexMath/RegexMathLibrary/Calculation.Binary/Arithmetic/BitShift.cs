@@ -27,3 +27,4 @@ namespace RegexMath.Calculation.Binary.Arithmetic
         }
     }
 }
+// ඞ

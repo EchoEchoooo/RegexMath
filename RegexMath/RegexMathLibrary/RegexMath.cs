@@ -72,4 +72,4 @@ namespace RegexMath
         public static bool TryEvaluate(string input, out double result) =>
             double.TryParse(Calculate(input), out result);
     }
-}
+}// ඞ

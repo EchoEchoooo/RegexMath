@@ -33,4 +33,4 @@ namespace RegexMath.Calculation.Binary.Arithmetic
             return (x, y) => Math.Pow(y, x);
         }
     }
-}
+}// ඞ
