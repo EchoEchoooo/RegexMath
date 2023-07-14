@@ -1,0 +1,18 @@
+﻿using System;
+using MathNet.Numerics;
+using RegexMath.Calculation.Operation;
+
+namespace RegexMath.Calculation.Binary.Complex;
+
+public sealed class Integral : BinaryCalculation
+{
+    public Integral()
+        : base(Pattern, brackets: true) { }
+
+    private static string Pattern { get; } =
+        $@"E_{Number}[(](?<{Token.Number}>{Int})[)]
+           (?({Token.Bracket})(?!))";
+
+    protected override Func<double, double, double> GetOperation(string operation)
+        => (x, y) => SpecialFunctions.ExponentialIntegral(x, (int) y);
+}

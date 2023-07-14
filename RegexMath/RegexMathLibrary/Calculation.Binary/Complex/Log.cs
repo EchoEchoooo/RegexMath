@@ -1,0 +1,18 @@
+﻿using System;
+using RegexMath.Calculation.Operation;
+
+namespace RegexMath.Calculation.Binary.Complex;
+
+public sealed class Log : BinaryCalculation
+{
+    public Log()
+        : base(Pattern, brackets: true) { }
+
+    private static string Pattern { get; } =
+        $@"Log_  {Number} [(]{Number}[)]|
+           Log[(]{Number},   {Number}[)]
+           (?({Token.Bracket})(?!))";
+
+    protected override Func<double, double, double> GetOperation(string operation)
+        => (newBase, n) => Math.Log(n, newBase);
+}
