@@ -1,4 +1,4 @@
-# RegexMath [![Build Status](https://dev.azure.com/kaworinakano/RegexMath/_apis/build/status/hizamakura.RegexMath?branchName=master)](https://dev.azure.com/kaworinakano/RegexMath/_build/latest?definitionId=1&branchName=master) [![CodeFactor](https://www.codefactor.io/repository/github/hizamakura/regexmath/badge/master)](https://www.codefactor.io/repository/github/hizamakura/regexmath/overview/master)
+# RegexMath [![Build Status](https://dev.azure.com/kaworinakano/RegexMath/_apis/build/status/hizamakura.RegexMath?branchName=master)]
 
 A math engine written in C# using RegEx.
 
